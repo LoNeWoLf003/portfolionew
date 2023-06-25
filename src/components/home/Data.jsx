@@ -55,10 +55,9 @@ const Data = () => {
           ></path>
         </svg>
       </h1>
-      <h3 className="home__subtitle">Visual Designer</h3>
+      <h3 className="home__subtitle">Software Consultancy</h3>
       <p className="home__description">
-        lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-        lorem ipsum{" "}
+        One Stop Solution for all your Tech Reqiurements!
       </p>
       <a href="#contact" className="button button--flex">
         Say Hello!
