@@ -13,10 +13,10 @@ const Services = () => {
       <div className="services__container container grid">
         <div className="services__content">
           <div>
-            <i className="uil uil-web-grid services__icon"></i>
+            <i className="uil uil-android services__icon"></i>
             <h3 className="services__title">
-              Lead <br />
-              Designer
+              Android <br />
+              Application
             </h3>
           </div>
           <span className="services__button" onClick={() => toggleTab(1)}>
@@ -35,29 +35,31 @@ const Services = () => {
                 onClick={() => toggleTab(0)}
                 className="uil uil-times services__modal-close"
               ></i>
-              <h3 className="services__modal-title">Product Designer</h3>
+              <h3 className="services__modal-title">Application Development</h3>
               <p className="services__modal-description">
-                Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
-                Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
+                Fully Functional Android Application Development. Built right
+                from scratch, customised to your needs.
               </p>
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">I develop UI/UX</p>
-                </li>
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">I develop websites</p>
+                  <p className="services__modal-info">Top Knotch Smooth UI.</p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    I develop Android Applications
+                    Secured Payment Gateway Integration can be done.
                   </p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">Design Web-Apps</p>
+                  <p className="services__modal-info">Minimalistic Designs.</p>
+                </li>
+                <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <p className="services__modal-info">
+                    Hosting options also available.
+                  </p>
                 </li>
               </ul>
             </div>
@@ -68,8 +70,8 @@ const Services = () => {
           <div>
             <i className="uil uil-arrow services__icon"></i>
             <h3 className="services__title">
-              UI/UX <br />
-              Designer
+              Website <br />
+              Development
             </h3>
           </div>
           <span className="services__button" onClick={() => toggleTab(2)}>
@@ -88,29 +90,39 @@ const Services = () => {
                 onClick={() => toggleTab(0)}
                 className="uil uil-times services__modal-close"
               ></i>
-              <h3 className="services__modal-title">UI/UX Designer</h3>
+              <h3 className="services__modal-title">Website Development</h3>
               <p className="services__modal-description">
-                Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
-                Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
+                Get high quality websites built right from the ground,
+                customised just how you want!
               </p>
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">I develop UI/UX</p>
-                </li>
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">I develop websites</p>
-                </li>
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    I develop Android Applications
+                    Simple, elegant designing.
                   </p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">Design Web-Apps</p>
+                  <p className="services__modal-info">
+                    Backend integration can be done if required
+                  </p>
+                </li>
+                <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <p className="services__modal-info">
+                    Encrypted Data Storage.
+                  </p>
+                </li>
+                <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <p className="services__modal-info">Safe & Secured.</p>
+                </li>
+                <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <p className="services__modal-info">
+                    Hosting options available.
+                  </p>
                 </li>
               </ul>
             </div>
@@ -119,10 +131,10 @@ const Services = () => {
 
         <div className="services__content">
           <div>
-            <i className="uil uil-edit services__icon"></i>
+            <i className="uil uil-cloud services__icon"></i>
             <h3 className="services__title">
-              Visual <br />
-              Designer
+              Cloud <br />
+              Computation
             </h3>
           </div>
           <span className="services__button" onClick={() => toggleTab(3)}>
@@ -141,29 +153,28 @@ const Services = () => {
                 onClick={() => toggleTab(0)}
                 className="uil uil-times services__modal-close"
               ></i>
-              <h3 className="services__modal-title">Visual Designer</h3>
+              <h3 className="services__modal-title">Cloud Computation</h3>
               <p className="services__modal-description">
-                Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
-                Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
+                Secured cloud computation methods. Get your data stored in the cloud in no time!
               </p>
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">I develop UI/UX</p>
+                  <p className="services__modal-info">Google Cloud Certified.</p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">I develop websites</p>
+                  <p className="services__modal-info">Cutting edge technology.</p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    I develop Android Applications
+                    Linked with Android devices.
                   </p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">Design Web-Apps</p>
+                  <p className="services__modal-info">Encrypted Data.</p>
                 </li>
               </ul>
             </div>
