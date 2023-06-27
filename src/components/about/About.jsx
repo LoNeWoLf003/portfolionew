@@ -1,22 +1,34 @@
 import React from "react";
 import "./About.css";
-import AboutImg from "../../assets/about.jpg";
-import CV from "../../assets/John-Cv.pdf";
+import AboutImg from "../../assets/peofile2.jpg";
+import CV from "../../assets/resume-sayak.pdf";
 import Info from "./Info";
 
 function About() {
   return (
     <section className="about section" id="about">
-      <h2 className="section__title">About Us</h2>
-      <span className="section__subtitle">Our Introduction</span>
+      <h2 className="section__title">About Me</h2>
+      <span className="section__subtitle">My Introduction</span>
       <div className="about__container container grid">
         <img src={AboutImg} alt="" className="about__img" />
         <div className="about__data">
           <Info />
           <p className="about__description">
-            Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
-            Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
-            Lorem Ipsum Lorem Ipsum Lorem Ipsum{" "}
+            From a very young age, I have a knack for learning new technologies
+            and implementing them to create something innovative. I have started
+            working with webpage development using HTML, CSS since my school
+            days and even now I am learning new things about development every
+            day. Apart from that, I have also worked on projects regarding
+            Android development.
+          </p>
+          <p className="about__description">
+            Contests and Challenges have always been my favourites. I have
+            participated in many events and competitions conducted by Google,
+            CodeChef. Along with that, I have done well in the inter-college and
+            intra-college competitions organised by my college in not only
+            coding but also in manual-and-autonomous robotics. I also love
+            listening to music. I have been taking training in Hindusthani
+            Classical Music since 5 years of age.
           </p>
           <a download="" href={CV} className="button button--flex">
             Download CV

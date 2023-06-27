@@ -4,7 +4,7 @@ const Data = () => {
   return (
     <div className="home__data">
       <h1 className="home__title">
-        Right Click Systems
+        Sayak SenGupta
         <svg
           width="36"
           height="36"
@@ -55,9 +55,9 @@ const Data = () => {
           ></path>
         </svg>
       </h1>
-      <h3 className="home__subtitle">Software Consultancy</h3>
+      <h3 className="home__subtitle">ML Enthusiast</h3>
       <p className="home__description">
-        One Stop Solution for all your Tech Reqiurements!
+        Presently a third year undergraduate from Techno Main Salt Lake majoring in Artificial Intelligence and Machine Learning.
       </p>
       <a href="#contact" className="button button--flex">
         Say Hello!
