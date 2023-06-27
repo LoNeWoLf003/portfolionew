@@ -41,21 +41,21 @@ const Services = () => {
                 Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
               </p>
               <ul className="services__modal-services grid">
-                <li className="services__modal-services">
+                <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">I develop UI/UX</p>
                 </li>
-                <li className="services__modal-services">
+                <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">I develop websites</p>
                 </li>
-                <li className="services__modal-services">
+                <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
                     I develop Android Applications
                   </p>
                 </li>
-                <li className="services__modal-services">
+                <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">Design Web-Apps</p>
                 </li>
@@ -94,21 +94,21 @@ const Services = () => {
                 Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
               </p>
               <ul className="services__modal-services grid">
-                <li className="services__modal-services">
+                <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">I develop UI/UX</p>
                 </li>
-                <li className="services__modal-services">
+                <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">I develop websites</p>
                 </li>
-                <li className="services__modal-services">
+                <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
                     I develop Android Applications
                   </p>
                 </li>
-                <li className="services__modal-services">
+                <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">Design Web-Apps</p>
                 </li>
@@ -147,21 +147,21 @@ const Services = () => {
                 Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
               </p>
               <ul className="services__modal-services grid">
-                <li className="services__modal-services">
+                <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">I develop UI/UX</p>
                 </li>
-                <li className="services__modal-services">
+                <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">I develop websites</p>
                 </li>
-                <li className="services__modal-services">
+                <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
                     I develop Android Applications
                   </p>
                 </li>
-                <li className="services__modal-services">
+                <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">Design Web-Apps</p>
                 </li>
