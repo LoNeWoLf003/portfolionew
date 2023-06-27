@@ -38,7 +38,7 @@ const Services = () => {
               <h3 className="services__modal-title">Product Designer</h3>
               <p className="services__modal-description">
                 Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
-                Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum{" "}
+                Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
               </p>
               <ul className="services__modal-services grid">
                 <li className="services__modal-services">
@@ -91,7 +91,7 @@ const Services = () => {
               <h3 className="services__modal-title">UI/UX Designer</h3>
               <p className="services__modal-description">
                 Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
-                Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum{" "}
+                Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
               </p>
               <ul className="services__modal-services grid">
                 <li className="services__modal-services">
@@ -144,7 +144,7 @@ const Services = () => {
               <h3 className="services__modal-title">Visual Designer</h3>
               <p className="services__modal-description">
                 Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
-                Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum{" "}
+                Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
               </p>
               <ul className="services__modal-services grid">
                 <li className="services__modal-services">
