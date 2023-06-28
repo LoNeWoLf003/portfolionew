@@ -22,6 +22,12 @@
   margin-bottom: var(--mb-0-25);
 }
 
+.testimonial__post {
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-medium);
+  margin-bottom: var(--mb-0-25);
+}
+
 .testimonial__description {
   font-size: var(--small-font-size);
 }
