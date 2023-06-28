@@ -46,8 +46,8 @@ const Qualification = () => {
           >
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">B.Tech.</h3>
-                <span className="qualification__subtitle">TMSL</span>
+                <h3 className="qualification__title">Bachelor of Technology <br /> in Computer Science and Enginnering <br /> (AI and ML)</h3>
+                <span className="qualification__subtitle">Techno Main Salt Lake, <br /> Kolkata</span>
                 <div className="qualification__calendar">
                   <i className="uil uil-calendar-alt"></i>2021-Present
                 </div>
@@ -65,10 +65,44 @@ const Qualification = () => {
                 <span className="qualification__line"></span>
               </div>
               <div>
-                <h3 className="qualification__title">High School</h3>
-                <span className="qualification__subtitle">NN</span>
+                <h3 className="qualification__title">Higher Secondary School</h3>
+                <span className="qualification__subtitle">Nava Nalanda High School <br /> (H.S. Dept.), <br /> Kolkata</span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i>2021-Present
+                  <i className="uil uil-calendar-alt"></i>2019-2021
+                </div>
+              </div>
+            </div>
+            <div className="qualification__data">
+              <div>
+                <h3 className="qualification__title">High School</h3>
+                <span className="qualification__subtitle">Nava Nalanda High School, <br />Kolkata</span>
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt"></i>2007-2019
+                </div>
+              </div>
+
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+            </div>
+          </div>
+          <div className={
+              toggleState === 2
+                ? "qualification__content qualification__content-active"
+                : "qualification__content"
+            }>
+            <div className="qualification__data">
+              <div></div>
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+              <div>
+                <h3 className="qualification__title">Google Cloud Arcade Facilitator</h3>
+                <span className="qualification__subtitle">Google Cloud</span>
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt"></i>2023
                 </div>
               </div>
             </div>
@@ -77,7 +111,7 @@ const Qualification = () => {
                 <h3 className="qualification__title">Lead Developer</h3>
                 <span className="qualification__subtitle">Grofy India</span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i>2021-Present
+                  <i className="uil uil-calendar-alt"></i>2023-Present
                 </div>
               </div>
 
@@ -94,71 +128,9 @@ const Qualification = () => {
               </div>
               <div>
                 <h3 className="qualification__title">Technical Co-Head</h3>
-                <span className="qualification__subtitle">Samarth</span>
+                <span className="qualification__subtitle">Samarth, TMSL</span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i>2021-Present
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className={
-              toggleState === 2
-                ? "qualification__content qualification__content-active"
-                : "qualification__content"
-            }>
-            <div className="qualification__data">
-              <div>
-                <h3 className="qualification__title">B.Tech. 2222</h3>
-                <span className="qualification__subtitle">TMSL</span>
-                <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i>2021-Present
-                </div>
-              </div>
-
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
-            </div>
-            <div className="qualification__data">
-              <div></div>
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
-              <div>
-                <h3 className="qualification__title">High School 2222</h3>
-                <span className="qualification__subtitle">NN</span>
-                <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i>2021-Present
-                </div>
-              </div>
-            </div>
-            <div className="qualification__data">
-              <div>
-                <h3 className="qualification__title">Lead Developer 2222</h3>
-                <span className="qualification__subtitle">Grofy India</span>
-                <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i>2021-Present
-                </div>
-              </div>
-
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
-            </div>
-            <div className="qualification__data">
-              <div></div>
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
-              <div>
-                <h3 className="qualification__title">Technical Co-Head 2222</h3>
-                <span className="qualification__subtitle">Samarth</span>
-                <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i>2021-Present
+                  <i className="uil uil-calendar-alt"></i>2023-Present
                 </div>
               </div>
             </div>
