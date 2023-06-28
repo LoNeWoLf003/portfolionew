@@ -54,6 +54,25 @@
 .qualification__subtitle{
     display: inline-block;
     font-size: var(--small-font-size);
-    margin-bottom: var(--mb-1);
+    margin-bottom: var(--mb);
 }
 
+.qualification__calendar{
+    font-size: var(--small-font-size);
+}
+
+.qualification__rounder{
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background-color: var(--text-color);
+    border-radius: 50%;
+}
+
+.qualification__line{
+    display: block;
+    width: 1.5px;
+    height: 100px;
+    background-color: var(--text-color);
+    transform: translate(6px, -7px);
+}
