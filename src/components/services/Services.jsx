@@ -13,7 +13,7 @@ const Services = () => {
       <div className="services__container container grid">
         <div className="services__content">
           <div>
-            <i className="uil uil-android services__icon"></i>
+            <i className="uil uil-android-alt services__icon"></i>
             <h3 className="services__title">
               Android <br />
               Application
