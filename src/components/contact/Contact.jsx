@@ -1,21 +1,41 @@
 import React, { useRef } from "react";
+import { useState } from "react";
 import emailjs from "@emailjs/browser";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 import "./contact.css";
 const Contact = () => {
+  const [Name, setName] = useState("");
+  const [email, setemail] = useState("");
+  const [msg, setmsg] = useState("");
+  const [error, seterror] = useState(false);
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    if (Name.length === 0 || email.length === 0 || msg.length === 0) {
+      seterror(true);
+    }
+    if (Name && email && msg) {
+      sendEmail(e);
+      toast.success("Message sent successfully", { position: "top-center" });
+    } else {
+      toast.error("Message not sent. Check if all fields are entered properly", { position: "top-right" ,theme:"dark"});
+    }
+  };
+
+
   const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs
-      .sendForm(
-        "service_h3zzp7c",
-        "template_r08w2es",
-        form.current,
-        "eszl7URBbYIu0uZE7"
-      )
-      e.target.reset()
+    emailjs.sendForm(
+      "service_h3zzp7c",
+      "template_r08w2es",
+      form.current,
+      "eszl7URBbYIu0uZE7"
+    );
+    e.target.reset();
   };
   return (
     <div className="contact section">
@@ -66,7 +86,7 @@ const Contact = () => {
         </div>
         <div className="contact__content">
           <h3 className="contact__title">Send me your message!</h3>
-          <form ref={form} onSubmit={sendEmail} className="contact__form">
+          <form ref={form} onSubmit={handleSubmit} className="contact__form">
             <div className="contact__form-div">
               <label className="contact__form-tag">Name</label>
               <input
@@ -74,8 +94,14 @@ const Contact = () => {
                 name="name"
                 className="contact__form-input"
                 placeholder="Your name"
+                onChange={(e) => setName(e.target.value)}
               />
             </div>
+            {error && Name.length <= 0 ? (
+              <label className="contact__form-error"> </label>
+            ) : (
+              ""
+            )}
             <div className="contact__form-div">
               <label className="contact__form-tag">Email</label>
               <input
@@ -83,8 +109,14 @@ const Contact = () => {
                 name="email"
                 className="contact__form-input"
                 placeholder="Your Email"
+                onChange={(e) => setemail(e.target.value)}
               />
             </div>
+            {error && email.length <= 0 ? (
+              <label> </label>
+            ) : (
+              ""
+            )}
             <div className="contact__form-div contact__form-area">
               <label className="contact__form-tag">Message</label>
               <textarea
@@ -93,9 +125,15 @@ const Contact = () => {
                 rows="10"
                 className="contact__form-input"
                 placeholder="Write your message"
+                onChange={(e) => setmsg(e.target.value)}
               ></textarea>
             </div>
-            <button className="button button--flex">
+            {error && msg.length <= 0 ? (
+              <label> </label>
+            ) : (
+              ""
+            )}
+            <button className="button button--flex" >
               Send Message
               <svg
                 class="button__icon"
@@ -118,6 +156,7 @@ const Contact = () => {
           </form>
         </div>
       </div>
+      <ToastContainer />
     </div>
   );
 };
