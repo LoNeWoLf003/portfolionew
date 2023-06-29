@@ -17,9 +17,9 @@ const Contact = () => {
     }
     if (Name && email && msg) {
       sendEmail(e);
-      toast.success("Message sent successfully", { position: "top-center" });
+      toast.success("Message sent successfully", { position: "top-right", theme:"dark" });
     } else {
-      toast.error("Message not sent. Check if all fields are entered properly", { position: "top-right" ,theme:"dark"});
+      toast.error("Message not sent. Check if all fields are entered properly.", { position: "top-right" ,theme:"dark"});
     }
   };
 
@@ -38,7 +38,7 @@ const Contact = () => {
     e.target.reset();
   };
   return (
-    <div className="contact section">
+    <div className="contact section" id="contact">
       <h2 className="section__title">Get In Touch</h2>
       <span className="section__subtitle">Contact Me</span>
       <div className="contact__container container grid">
