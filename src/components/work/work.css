@@ -19,6 +19,7 @@
 .work__item:hover {
   background-color: var(--title-color);
   color: var(--container-color);
+  transition: all 0.3s ease-in-out;
 }
 
 .work__container {
