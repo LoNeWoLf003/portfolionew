@@ -10,9 +10,11 @@ import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 import ScrollUp from "./components/scrollup/ScrollUp";
 import Work from "./components/work/Work";
+import Preloader from "./components/preloader/Preloader";
 const App = () => {
   return (
     <>
+      <Preloader />
       <Header />
       <main className="main">
         <Home />
