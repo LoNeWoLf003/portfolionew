@@ -25,21 +25,21 @@ const Footer = () => {
         </ul>
         <div className="footer__social">
           <a
-            href="www.instagram.com"
+            href="https://instagram.com/wwwdotthatcoderguydotcom?igshid=MzMyNGUyNmU2YQ=="
             className="footer__social-icon"
             target="_blank"
           >
             <i class="bx bxl-instagram"></i>
           </a>
           <a
-            href="www.linkedin.com"
+            href="https://www.linkedin.com/in/sayak-sengupta-a613931ba/"
             className="footer__social-icon"
             target="_blank"
           >
             <i class="bx bxl-linkedin"></i>
           </a>
           <a
-            href="www.cloud.com"
+            href="https://www.cloudskillsboost.google/public_profiles/dd03d123-b7ad-4c8d-bccb-7a652dd5ce4e"
             className="footer__social-icon"
             target="_blank"
           >
