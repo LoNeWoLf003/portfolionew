@@ -27,7 +27,7 @@ const Footer = () => {
           <a
             href="https://instagram.com/wwwdotthatcoderguydotcom?igshid=MzMyNGUyNmU2YQ=="
             className="footer__social-icon"
-            target="_blank"
+            target="_blank" rel="noopener noreferrer"
           >
             <i class="bx bxl-instagram"></i>
           </a>

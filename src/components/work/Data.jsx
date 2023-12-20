@@ -1,7 +1,7 @@
 import Work1 from "../../assets/sam.png";
 import Work2 from "../../assets/grofy.jpg";
 import Work3 from "../../assets/cloud.png";
-
+import Work4 from "../../assets/rcs.jpg";
 export const projectsData = [
   {
     id: 1,
@@ -29,6 +29,16 @@ export const projectsData = [
     link: "https://www.cloudskillsboost.google/public_profiles/dd03d123-b7ad-4c8d-bccb-7a652dd5ce4e/badges/4244511"
 
   },
+  {
+    id: 4,
+    image: Work4,
+    title: "Right Click Systems",
+    desc: "Website Building for Right Click Systems, Kolkata",
+    category: "web",
+    link: "https://rightclicksystems.vercel.app/"
+
+  },
+
 ];
 export const projectsNav = [
     {
