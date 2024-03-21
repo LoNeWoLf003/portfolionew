@@ -11,17 +11,17 @@ export const projectsData = [
     category: "web",
     link: "https://www.samarthtmsl.live/"
   },
+  // {
+  //   id: 2,
+  //   image: Work2,
+  //   title: "Grofy",
+  //   desc: "Android Grocery Delivery Application, available on Play Store.",
+  //   category: "app",
+  //   link: "https://play.google.com/store/apps/details?id=com.grofy.grofy&pli=1"
+
+  // },
   {
     id: 2,
-    image: Work2,
-    title: "Grofy",
-    desc: "Android Grocery Delivery Application, available on Play Store.",
-    category: "app",
-    link: "https://play.google.com/store/apps/details?id=com.grofy.grofy&pli=1"
-
-  },
-  {
-    id: 3,
     image: Work3,
     title: "Google Cloud Arcade Facilitator Program",
     desc: "Co-Facilitator for Cohort-2 of the Google Cloud Arcade Facilitator Program",
@@ -30,7 +30,7 @@ export const projectsData = [
 
   },
   {
-    id: 4,
+    id: 3,
     image: Work4,
     title: "Right Click Systems",
     desc: "Website Building for Right Click Systems, Kolkata",
@@ -47,9 +47,9 @@ export const projectsNav = [
     {
         name:'web',
     },
-    {
-        name:'app',
-    },
+    // {
+    //     name:'app',
+    // },
     {
         name:'cloud',
     },
