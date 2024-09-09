@@ -57,7 +57,7 @@ const Data = () => {
       </h1>
       <h3 className="home__subtitle">ML Enthusiast</h3>
       <p className="home__description">
-        Presently a third year undergraduate from Techno Main Salt Lake majoring in Artificial Intelligence and Machine Learning.
+        Presently a fourth year undergraduate from Techno Main Salt Lake majoring in Artificial Intelligence and Machine Learning.
       </p>
       <a href="#contact" className="button button--flex">
         Say Hello!
