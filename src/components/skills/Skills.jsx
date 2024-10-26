@@ -1,7 +1,8 @@
 import React from "react";
 import "./skills.css";
 import Frontend from "./Frontend";
-import Backend from "./Backend";
+import Devops from "./Devops";
+import ML from "./MachineLearning";
 
 const Skills = () => {
   return (
@@ -10,7 +11,8 @@ const Skills = () => {
       <span className="section__subtitle">Technical Level</span>
       <div className="skills__container container grid">
         <Frontend />
-        <Backend />
+        <Devops />
+        <ML />
       </div>
     </section>
   );
