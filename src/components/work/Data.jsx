@@ -8,7 +8,7 @@ export const projectsData = [
     image: Work1,
     title: "Samarth TMSL",
     desc: "Website for the official educational society of Techno Main Salt Lake",
-    category: "web",
+    category: "Web",
     link: "https://www.samarthtmsl.live/",
   },
   {
@@ -16,7 +16,7 @@ export const projectsData = [
     image: Work3,
     title: "Google Cloud Arcade Facilitator Program",
     desc: "Co-Facilitator for Cohort-2 of the Google Cloud Arcade Facilitator Program",
-    category: "cloud",
+    category: "Cloud",
     link: "https://www.cloudskillsboost.google/public_profiles/dd03d123-b7ad-4c8d-bccb-7a652dd5ce4e/badges/4244511",
   },
   {
@@ -24,7 +24,7 @@ export const projectsData = [
     image: Work4,
     title: "Right Click Systems",
     desc: "Website Building for Right Click Systems, Kolkata",
-    category: "web",
+    category: "Web",
     link: "https://rightclicksystems.vercel.app/",
   },
   {
@@ -32,21 +32,21 @@ export const projectsData = [
     image: Work5,
     title: "Stock Prediction",
     desc: "Website to predict future stock prices using ML (LSTM, Tensorflow)",
-    category: "web",
+    category: "Web",
     link: "https://trialstock.streamlit.app/",
   },
 ];
 export const projectsNav = [
   {
-    name: "all",
+    name: "All",
   },
   {
-    name: "web",
+    name: "Web",
   },
   // {
   //     name:'app',
   // },
   {
-    name: "cloud",
+    name: "Cloud",
   },
 ];

@@ -8,7 +8,7 @@ const Works = () => {
   const [projects, setProjects] = useState([]);
   const [active, setActive] = useState(0);
   useEffect(() => {
-    if (item.name === "all") {
+    if (item.name === "All") {
       setProjects(projectsData);
     } else {
       const newProjects = projectsData.filter((project) => {
