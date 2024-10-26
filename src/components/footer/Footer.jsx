@@ -34,14 +34,14 @@ const Footer = () => {
           <a
             href="https://www.linkedin.com/in/sayak-sengupta-a613931ba/"
             className="footer__social-icon"
-            target="_blank"
+            target="_blank" rel="noopener noreferrer"
           >
             <i class="bx bxl-linkedin"></i>
           </a>
           <a
             href="https://www.cloudskillsboost.google/public_profiles/dd03d123-b7ad-4c8d-bccb-7a652dd5ce4e"
             className="footer__social-icon"
-            target="_blank"
+            target="_blank" rel="noopener noreferrer"
           >
             <i class="bx bx-cloud"></i>
           </a>
