@@ -47,7 +47,7 @@ const Qualification = () => {
               <div>
                 <h3 className="qualification__title">
                   Bachelor of Technology <br /> in Computer Science and
-                  Enginnering <br /> (AI and ML)
+                  Engineering <br /> (AI and ML)
                 </h3>
                 <span className="qualification__subtitle">
                   Techno Main Salt Lake, <br /> Kolkata
