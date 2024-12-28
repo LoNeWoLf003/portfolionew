@@ -105,23 +105,40 @@ const Qualification = () => {
                 : "qualification__content"
             }
           >
+            {" "}
             <div className="qualification__data">
+              <div></div>
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
               <div>
                 <h3 className="qualification__title">
                   Research and Development Intern, ISG Devops Team
                 </h3>
-                <span className="qualification__subtitle">Keysight Technologies, Kolkata</span>
+                <span className="qualification__subtitle">
+                  Keysight Technologies, Kolkata
+                </span>
                 <div className="qualification__calendar">
                   <i className="uil uil-calendar-alt"></i> 2024-Present
                 </div>
               </div>
-
+            </div>
+            <div className="qualification__data">
+              <div>
+                <h3 className="qualification__title">
+                  Winner at StatusCode1, IIIT Kalyani
+                </h3>
+                <span className="qualification__subtitle">Avalanche Track</span>
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt"></i> 2024
+                </div>
+              </div>
               <div>
                 <span className="qualification__rounder"></span>
                 <span className="qualification__line"></span>
               </div>
             </div>
-
             <div className="qualification__data">
               <div></div>
               <div>
@@ -140,7 +157,6 @@ const Qualification = () => {
                 </div>
               </div>
             </div>
-
             <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">
